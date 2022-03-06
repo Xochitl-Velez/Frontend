@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Jatitz</title>
+</head>
+<body>
+
+    <h1>Entregas a domicilio</h1>
+
+    <h2>Pasteles</h2>
+    <label for="pasteles">Escoja un pastel</label>
+    <select id="pasteles" name="Pasteles">
+        <option value="chocolate">Chocolate $200.00</option>
+        <option value="vainilla">Vainilla $150.00</option>
+        <option value="moka">Moka $200.00</option>
+        <option value="tresleches">Tres leches $350.00</option>
+    </select>
+
+    <h2>Adornos y precios</h2>
+    <input type="checkbox" id="topping1" name="topping1" value="laminaschocolate">
+    <label for="topping1">Pasteles con láminas de chocolate $150.00</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="rosasbetun">
+    <label for="topping2">Pasteles con rosas de betún $200.00</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Frutosrojos">
+    <label for="topping3">Pasteles con frutos rojos $350.00</label><br><br>
+    
+    <h2>Sabores</h2>
+    <input type="checkbox" id="topping1" name="topping1" value="limon">
+    <label for="topping1">Pasteles de Limón</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="red velvet">
+    <label for="topping2">Pasteles Red Velvet</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="cajeta">
+    <label for="topping3">Pasteles de Cajeta</label><br><br>
+
+    <hr>
+    <!-- Formularios -->
+    <h2>Pedidos</h2>
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="telefono">Teléfono:</label>
+    <input type="text" id="telefono" name="telefono" form="form1"><br><br>
+    <label for="mail">Email:</label>
+    <input type="text" id="mail" name="mail" form="form1"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+
+    <footer>
+        <p>Dirección: Calzada de los Rosales No.5 Colonia Roma Del. Cuauhtémoc C.P 07160</p>
+        <p>Teléfono: 5557148925 Whastapp: 5555108024</p>
+        <p>Horarios: Lunes a Viernes de 10 a 21:30 hrs. Sábados de 11:00 a 16:00</p>
+
+        </footer>
+
+
+</body>
+</html>
