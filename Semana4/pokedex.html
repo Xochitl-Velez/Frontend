@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LX</title>
+    <link rel="stylesheet" href="./pokedex.css">
+    
+</head>
+<body>
+    <h1>Base de datos de pokemones</h1>
+
+    <div class="pokedex" >
+  
+      <div class="screen-area">
+          
+        <div class="power">
+          <div class="indicator">
+              <div class="led"></div>
+              <span class="arc" style="z-index:2"></span>
+              <span class="arc" style="z-index:1"></span>
+              <span class="arc" style="z-index:0"></span>
+            
+              <img src="pokebola.jfif"Pokemon" id="pokeImg" width="150px"><br>
+
+              <input type="text" placeholder="Inserta tu pokemon" id="pokeName" name="pokeName"><br/><br/><br><br>
+              <img src="pokebola 2.jfif"Pokemon" id="pokeImg" width="150px"><br>
+              <button onclick="fetchPokemon()">Cambiar Imágen</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+</body>
+<footer>
+    <script src="./pokedex.js"></script>
+</footer>
+</html>
